@@ -199,7 +199,7 @@ def main():
     tabla("p1_extremos",
           ["factura", "descripci\\'on", "cantidad", r"monto (\pounds)", "fecha y hora",
            "sobrevive"],
-          [[esc(r["InvoiceNo"]), esc(str(r["Description"]))[:26], num(r["Quantity"]),
+          [[esc(r["InvoiceNo"]), esc(str(r["Description"]))[:30], num(r["Quantity"]),
             num(r["monto_GBP"], 2), esc(str(r["fecha_hora"])[:16]),
             r"s\'i" if r["sobrevive_a_limpiar"] else "no"] for _, r in d.iterrows()],
           "llrrlc",
