@@ -1,0 +1,6 @@
+modelo,estimacion,MAE,MAE_sd,RMSE,RMSE_sd,nota
+M2,(a) CV aleatoria,8522.466546272537,105.73124820617615,12006.762550708332,128.27900140749261,
+M2,(b) origen movil en entrenamiento,9480.28756728078,,13674.770530406717,,
+M2t,(a) CV aleatoria,7683.2159400519595,133.90959167140707,10374.13905068277,187.88381149818545,
+M2t,(b) origen movil en entrenamiento,8584.828654332821,,11639.575619669256,,
+M2t,(c) origen movil en prueba,,,,,"NO SE PUEDE CALCULAR SIN HACER TRAMPA: la MA centrada del dia t necesita y_{t+1}, y_{t+2} e y_{t+3}"

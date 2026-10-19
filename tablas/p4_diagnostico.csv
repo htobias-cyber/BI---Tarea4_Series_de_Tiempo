@@ -1,0 +1,5 @@
+modelo,m,n_residuos,Q,gl,valor_p,ruido_blanco_5pct,nota
+S1,6,245,9.718612616691466,4,0.04544397232893438,False,todos los residuos
+S1,12,245,23.363913954959276,10,0.009480154900682991,False,todos los residuos
+S2,6,231,4.311705901755541,4,0.3654615723638057,True,sin los primeros 7 residuos (artefactos del arranque)
+S2,12,231,11.759711506640823,10,0.30146000956242747,True,sin los primeros 7 residuos (artefactos del arranque)

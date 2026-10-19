@@ -1,0 +1,19 @@
+modelo,estimacion,MAE,MAE_sd,RMSE,RMSE_sd,n_dias,nota
+B1,(a) CV aleatoria 5 folds,10565.425629658475,66.6769513061386,14653.511733334079,77.12457031327318,245,
+M1,(a) CV aleatoria 5 folds,9360.727379295742,86.42564664669972,12878.656296100038,118.00085496790952,245,
+M2,(a) CV aleatoria 5 folds,8522.466546272537,105.73124820617615,12006.762550708332,128.27900140749261,245,
+B2,(a) CV aleatoria 5 folds,,,,,0,no aplica: el modelo depende del orden del tiempo
+S1,(a) CV aleatoria 5 folds,,,,,0,no aplica: el modelo depende del orden del tiempo
+S2,(a) CV aleatoria 5 folds,,,,,0,no aplica: el modelo depende del orden del tiempo
+B1,(b) origen movil en entrenamiento,10505.839449245987,,15254.189901480437,,128,
+B2,(b) origen movil en entrenamiento,11634.402875,,15949.376771780106,,128,
+M1,(b) origen movil en entrenamiento,9996.78649283191,,14146.92778227683,,128,
+M2,(b) origen movil en entrenamiento,9480.28756728078,,13674.770530406717,,128,
+S1,(b) origen movil en entrenamiento,9853.987566867945,,14035.94592825364,,128,
+S2,(b) origen movil en entrenamiento,10303.894483199614,,14325.097267512449,,128,
+B1,(c) origen movil en prueba,23446.293262981217,,28178.578874741437,,58,
+B2,(c) origen movil en prueba,14655.247068965518,,18956.61454218885,,58,
+M1,(c) origen movil en prueba,15759.099789681197,,20955.462376994776,,58,
+M2,(c) origen movil en prueba,15647.894603881006,,20393.40787005666,,58,
+S1,(c) origen movil en prueba,17242.888405496433,,21657.0598752327,,58,
+S2,(c) origen movil en prueba,12817.144567408248,,16216.658514518667,,58,

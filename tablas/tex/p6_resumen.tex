@@ -1,0 +1,25 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{6.1--6.5} Resumen del an\'alisis RFM.}
+\label{tab:p6_resumen}
+\begin{tabular}{lr}
+\toprule
+\textbf{concepto} & \textbf{valor} \\
+\midrule
+clientes con transaccion antes del 1-oct & 3658.0 \\
+clientes con M <= 0 & 54.0 \\
+valores distintos de F & 48.0 \\
+compraron en la ventana & 1845.0 \\
+tasa base de compra & 0.5044 \\
+campeones & 783.0 \\
+clientes nuevos en la ventana & 723.0 \\
+venta de la ventana (GBP, clientes con ID) & 2432839.69 \\
+AUC R (signo invertido) & 0.6764 \\
+AUC F (crudo) & 0.721 \\
+AUC M (crudo) & 0.7093 \\
+AUC suma de los tres puntajes & 0.7352 \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} todo se calcula con transacciones anteriores al 1 de octubre; la ventana del 1 de octubre al 8 de diciembre solo se usa para definir la variable a predecir.}
+\end{table}

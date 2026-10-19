@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{0.5} Tasa de rechazo al 5\,\% de Ljung--Box con $m=10$, frente a la prueba de un solo rezago.}
+\label{tab:p0_tabla_ljungbox}
+\begin{tabular}{lcc}
+\toprule
+\textbf{escenario} & \textbf{Ljung--Box $m=10$} & \textbf{prueba de rezago 1} \\
+\midrule
+ruido blanco (phi=0) & 0.0612 \tiny$\pm$0.0034 & 0.0500 \tiny$\pm$0.0031 \\
+tendencia lineal & 1.0000 \tiny$\pm$0.0000 & 0.9846 \tiny$\pm$0.0017 \\
+patron semanal & 0.9554 \tiny$\pm$0.0029 & 0.1146 \tiny$\pm$0.0045 \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} el caso semanal es el que cambia. Ljung--Box lo rechaza el 95.5\,\% de las veces contra el 11.5\,\% de la prueba de rezago~1, porque $Q(10)$ incluye el rezago~7 en la suma.}
+\end{table}

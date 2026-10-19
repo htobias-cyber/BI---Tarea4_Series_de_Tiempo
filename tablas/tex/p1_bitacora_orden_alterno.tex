@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{1.3} Las mismas reglas con R4 y R5 intercambiadas.}
+\label{tab:p1_bitacora_orden_alterno}
+\begin{tabular}{clrr}
+\toprule
+\textbf{orden} & \textbf{regla} & \textbf{filas eliminadas} & \textbf{monto (\pounds)} \\
+\midrule
+1 & R1 duplicados exactos & 5\,268 & 21\,740.98 \\
+2 & R2 prefijo distinto de digito o C & 3 & -11\,062.06 \\
+3 & R3 StockCode que no es venta & 149 & -239\,669.22 \\
+4 & R5 cantidad negativa sin cancelacion (ADELANTADA) & 1\,336 & 0.00 \\
+5 & R4 precio <= 0 (ATRASADA) & 1\,174 & 0.00 \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} la misma regla elimina 1\,336 filas aqu\'i y 0 en la tabla anterior. El conjunto final es id\'entico (533\,979 filas), pero la bit\'acora cuenta otra historia: sin el orden documentado no es reproducible.}
+\end{table}

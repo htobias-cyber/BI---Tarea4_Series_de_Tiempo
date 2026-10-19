@@ -1,0 +1,16 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{0.4} Procesos \emph{sin memoria} cuya media cambia con el tiempo. 5\,000 r\'eplicas de $n=300$ por escenario.}
+\label{tab:p0_tabla_media_no_constante}
+\begin{tabular}{lcccc}
+\toprule
+\textbf{escenario} & \textbf{prom. $r_1$} & \textbf{prom. $r_7$} & \textbf{tasa rechazo $|r_1|$} & \textbf{semilla} \\
+\midrule
+ruido blanco (phi=0) & -0.0039 \tiny$\pm$0.0008 & -0.0017 \tiny$\pm$0.0008 & 0.0500 \tiny$\pm$0.0031 & 2026 \\
+tendencia lineal =2t/300 & 0.2445 \tiny$\pm$0.0008 & 0.2296 \tiny$\pm$0.0008 & 0.9846 \tiny$\pm$0.0017 & 2030 \\
+patron semanal =-1.5 si t mod 7 = 6 & -0.0484 \tiny$\pm$0.0008 & 0.2646 \tiny$\pm$0.0008 & 0.1146 \tiny$\pm$0.0045 & 2031 \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} la tendencia reprueba la prueba de rezago~1 el 98.5\,\% de las veces sin tener ninguna memoria. El patr\'on semanal la \emph{pasa} (11.5\,\%) aunque su $r_7=0.26$ delata una estructura enorme: la prueba mira donde no hay nada.}
+\end{table}

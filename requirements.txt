@@ -1,0 +1,9 @@
+# Tarea 4 -- Business Intelligence
+# statsmodels NO es necesario: el SARIMA esta implementado a mano en
+# src/utils_ts.py y verificado en src/test_sarima.py.
+numpy>=1.26
+pandas>=2.0
+scipy>=1.11
+matplotlib>=3.7
+openpyxl>=3.1
+scikit-learn>=1.3

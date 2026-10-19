@@ -1,0 +1,17 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{0.2} AR(1) simulado: $n=300$, 5\,000 r\'eplicas por escenario. Cada celda trae el promedio sobre las r\'eplicas y, en peque\~no, su error est\'andar. La banda de la prueba de rezago~1 es $\pm 1.96/\sqrt{300} = 0.1132$.}
+\label{tab:p0_tabla_ar1}
+\begin{tabular}{ccccccc}
+\toprule
+\textbf{$\phi$} & \textbf{prom. $r_1$} & \textbf{prom. $r_5$} & \textbf{$\phi^5$ te\'orico} & \textbf{tasa rechazo $|r_1|$} & \textbf{prom. $\hat\phi_{\text{OLS}}$} & \textbf{semilla} \\
+\midrule
+0.00 & -0.0039 \tiny$\pm$0.0008 & -0.0028 \tiny$\pm$0.0008 & 0.0000 & 0.0500 \tiny$\pm$0.0031 & -0.0039 \tiny$\pm$0.0008 & 2026 \\
+0.50 & 0.4892 \tiny$\pm$0.0007 & 0.0199 \tiny$\pm$0.0010 & 0.0312 & 1.0000 \tiny$\pm$0.0000 & 0.4909 \tiny$\pm$0.0007 & 2027 \\
+0.90 & 0.8839 \tiny$\pm$0.0004 & 0.5339 \tiny$\pm$0.0014 & 0.5905 & 1.0000 \tiny$\pm$0.0000 & 0.8871 \tiny$\pm$0.0004 & 2028 \\
+1.00 & 0.9758 \tiny$\pm$0.0002 & 0.8835 \tiny$\pm$0.0009 & 1.0000 & 1.0000 \tiny$\pm$0.0000 & 0.9824 \tiny$\pm$0.0002 & 2029 \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} con $\phi=0$ la tasa de rechazo es exactamente el 5\,\% nominal. Con $\phi=1$, $r_5=0.88$ en vez del $\phi^5=1$ te\'orico, porque la f\'ormula supone estacionariedad. Y $\hat\phi_{\text{OLS}}$ est\'a sesgado hacia abajo, cada vez m\'as conforme $\phi\to1$.}
+\end{table}

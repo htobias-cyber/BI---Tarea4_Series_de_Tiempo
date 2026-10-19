@@ -1,0 +1,7 @@
+InvoiceNo,StockCode,Description,Quantity,UnitPrice,monto_GBP,fecha_hora,contraparte_mismo_dia,sobrevive_a_limpiar
+C581484,23843,"PAPER CRAFT , LITTLE BIRDIE",-80995,2.08,-168469.6,2011-12-09 09:27:00,ninguna con el mismo numero base,True
+581483,23843,"PAPER CRAFT , LITTLE BIRDIE",80995,2.08,168469.6,2011-12-09 09:15:00,ninguna con el mismo numero base,True
+541431,23166,MEDIUM CERAMIC TOP STORAGE JAR,74215,1.04,77183.6,2011-01-18 10:01:00,ninguna con el mismo numero base,True
+C541433,23166,MEDIUM CERAMIC TOP STORAGE JAR,-74215,1.04,-77183.6,2011-01-18 10:17:00,ninguna con el mismo numero base,True
+556444,22502,PICNIC BASKET WICKER 60 PIECES,60,649.5,38970.0,2011-06-10 15:28:00,ninguna con el mismo numero base,True
+C556445,M,Manual,-1,38970.0,-38970.0,2011-06-10 15:31:00,ninguna con el mismo numero base,True

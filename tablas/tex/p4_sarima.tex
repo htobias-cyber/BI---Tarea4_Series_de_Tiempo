@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{4.3} Los dos modelos SARIMA ajustados sobre $\log$(venta diaria) con $s=6$, por m\'axima verosimilitud exacta (filtro de Kalman).}
+\label{tab:p4_sarima}
+\begin{tabular}{lcccccccc}
+\toprule
+\textbf{modelo} & \textbf{$\hat\phi$} & \textbf{$\hat\Phi$} & \textbf{$\hat\theta$} & \textbf{$\hat\Theta$} & \textbf{$\hat\mu$} & \textbf{$\hat\sigma^2$} & \textbf{log-verosim.} & \textbf{conv.} \\
+\midrule
+S1  SARIMA(1,0,0)(1,0,0)\_6 con con & 0.1216 & 0.5296 & --- & --- & 10.1480 & 0.21677 & -161.344 & s\'i \\
+S2  SARIMA(0,1,1)(0,1,1)\_6 sin con & --- & --- & -0.9179 & -0.6612 & --- & 0.21364 & -157.188 & s\'i \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} en S1 el t\'ermino estacional ($\hat\Phi=0.53$) pesa mucho m\'as que el regular ($\hat\phi=0.12$), confirmando que el rezago 6 es el que importa. Ambos modelos convergieron ya con el \texttt{maxiter} por omisi\'on; con \texttt{maxiter}=500 los par\'ametros son id\'enticos a cuatro decimales.}
+\end{table}

@@ -1,0 +1,10 @@
+caso,filas,monto_GBP,decision,justificacion
+(a) filas duplicadas exactas,5268,21740.98,SE VAN,"Misma factura, producto, cantidad y minuto: es un error de captura o de exportacion. Si se dejan, el monto se cuenta dos veces."
+(b) facturas con prefijo 'A',3,-11062.06,SE VAN,"Las tres dicen 'Adjust bad debt': es un ajuste contable por deuda incobrable, no una venta ni la cancelacion de una venta."
+(b) facturas con prefijo 'C',9288,-896812.49,SE QUEDAN,"Son las cancelaciones. El enunciado pide que resten el dia en que ocurren, asi que son parte de la venta neta."
+"(c) StockCode que no es venta (AMAZONFEE, BANK CHARGES, CRUK, B, S)",153,-250741.019,SE VAN,"Comisiones de terceros, cargos bancarios, ajustes de deuda y muestras: son gastos o movimientos de inventario, no ventas al cliente."
+"(c) StockCode especial que SI es venta (POST, DOT, C2, D, M, PADS, gift_*, DCGS*)",2763,205094.26299999998,SE QUEDAN,"Envios y descuentos son dinero que el cliente paga o deja de pagar; DCGS*, PADS y los vales si son productos; 'M' cancela ventas reales."
+(d) precio unitario igual a cero,2515,0.0,SE VAN,"No aportan nada a la venta neta y 1454 de ellas ni siquiera tienen descripcion; el resto dice 'check', 'damages', '?': son movimientos de bodega."
+(d) precio unitario negativo,2,-22124.12,SE VAN,"Son las mismas facturas 'A' de deuda incobrable, asi que la regla (b) ya se las habia llevado."
+(e) cantidad negativa en factura que no es cancelacion,1336,0.0,SE VAN,"La columna Description las delata: 'damages', 'check', '?', 'lost', 'thrown away'. Son ajustes de inventario, no devoluciones de clientes. Todas tienen precio cero (1336 de 1336), asi que su monto es exactamente 0."
+(f) filas sin CustomerID,135080,1447682.12,SE QUEDAN (para la serie),"Son el 24.9% de las filas y 1,447,682 GBP de venta. Para la serie agregada siguen siendo dinero que entro a la caja. Para la Parte 6 hay que saber quien compro, y ahi si se excluyen."

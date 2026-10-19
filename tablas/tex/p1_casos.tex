@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{1.2} Los seis casos del enunciado, con su tama\~no y la decisi\'on tomada. La justificaci\'on de cada uno est\'a en el texto.}
+\label{tab:p1_casos}
+\begin{tabular}{p{8.3cm}rrl}
+\toprule
+\textbf{caso} & \textbf{filas} & \textbf{monto (\pounds)} & \textbf{decisi\'on} \\
+\midrule
+(a) filas duplicadas exactas & 5\,268 & 21\,741 & \textbf{SE VAN} \\
+(b) facturas con prefijo 'A' & 3 & -11\,062 & \textbf{SE VAN} \\
+(b) facturas con prefijo 'C' & 9\,288 & -896\,812 & \textbf{SE QUEDAN} \\
+(c) StockCode que no es venta (AMAZONFEE, BANK CHARGES, CRUK, B, S) & 153 & -250\,741 & \textbf{SE VAN} \\
+(c) StockCode especial que SI es venta (POST, DOT, C2, D, M, PADS, gift\ & 2\,763 & 205\,094 & \textbf{SE QUEDAN} \\
+(d) precio unitario igual a cero & 2\,515 & 0 & \textbf{SE VAN} \\
+(d) precio unitario negativo & 2 & -22\,124 & \textbf{SE VAN} \\
+(e) cantidad negativa en factura que no es cancelacion & 1\,336 & 0 & \textbf{SE VAN} \\
+(f) filas sin CustomerID & 135\,080 & 1\,447\,682 & \textbf{SE QUEDAN (para la serie)} \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} las dos decisiones de \emph{conservar} son tan importantes como las de eliminar. Las cancelaciones deben restar el d\'ia en que ocurren, y las filas sin cliente son 1.45 millones de libras de venta real.}
+\end{table}

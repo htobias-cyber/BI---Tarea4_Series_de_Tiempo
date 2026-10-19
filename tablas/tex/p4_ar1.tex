@@ -1,0 +1,22 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{4.2} AR(1) ajustado por OLS a los residuos $e_t$ del inciso 4.1, y Ljung--Box sobre sus residuos $u_t$ (un grado de libertad menos por el $\phi$ estimado).}
+\label{tab:p4_ar1}
+\begin{tabular}{lr}
+\toprule
+\textbf{cantidad} & \textbf{valor} \\
+\midrule
+c & -103.51 \\
+phi & 0.2779 \\
+desv\_est\_residuos\_u & 11\,901.04 \\
+LjungBox Q(6) & 25.0364 \\
+LjungBox Q(6) gl & 5.0000 \\
+LjungBox Q(6) valor\_p & 0.0001 \\
+LjungBox Q(12) & 33.9542 \\
+LjungBox Q(12) gl & 11.0000 \\
+LjungBox Q(12) valor\_p & 0.0004 \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} $\hat\phi=0.278$ limpia el rezago~1, pero ambas pruebas siguen rechazando: quedan fuera de banda los rezagos 2, 4, 6 y 9. Un AR(1) implica $\rho_6=0.28^6\approx0.0005$, o sea que predice que no hay nada en el rezago 6, y s\'i lo hay.}
+\end{table}

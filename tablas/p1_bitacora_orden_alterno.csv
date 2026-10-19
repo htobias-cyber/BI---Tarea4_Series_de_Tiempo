@@ -1,0 +1,6 @@
+regla,filas_eliminadas,monto_eliminado_GBP,orden
+R1 duplicados exactos,5268,21740.98,1
+R2 prefijo distinto de digito o C,3,-11062.06,2
+R3 StockCode que no es venta,149,-239669.219,3
+R5 cantidad negativa sin cancelacion (ADELANTADA),1336,0.0,4
+R4 precio <= 0 (ATRASADA),1174,0.0,5

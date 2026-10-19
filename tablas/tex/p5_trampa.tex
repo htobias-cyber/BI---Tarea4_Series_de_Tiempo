@@ -1,0 +1,15 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{5.4} La trampa: M2 con la media m\'ovil \emph{centrada} de 7 d\'ias agregada como predictor.}
+\label{tab:p5_trampa}
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{modelo} & \textbf{MAE (a)} & \textbf{RMSE (a)} & \textbf{MAE (b)} & \textbf{RMSE (b)} & \textbf{MAE (c)} & \textbf{RMSE (c)} \\
+\midrule
+\textbf{M2} & 8\,522 & 12\,007 & 9\,480 & 13\,675 & --- & --- \\
+\textbf{M2 + MA7 (ilegal)} & 7\,683 & 10\,374 & 8\,585 & 11\,640 & \textbf{imposible} & --- \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} el predictor ilegal mejora el MAE un 9.8\,\% en (a) y un 9.4\,\% en (b), y ninguna de las dos validaciones protesta. La \'unica se\~nal de alarma es que (c) no se puede calcular: $\mathrm{MA}_t$ necesita $y_{t+1}$, $y_{t+2}$, $y_{t+3}$ y adem\'as contiene $y_t/7$, que es la propia respuesta.}
+\end{table}

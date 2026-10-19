@@ -1,0 +1,12 @@
+concepto,valor
+primer dia,2010-12-01
+ultimo dia de los datos,2011-12-09
+dias calendario (inclusive),374
+dias con al menos una transaccion,305
+dias sin transacciones,69
+"   de ellos, sabados",53
+"   de ellos, feriados bancarios",11
+   sin explicacion,5
+serie final: dias en el calendario (sin el ultimo dia),373
+serie final: dias abiertos,304
+venta neta total de la serie (GBP),9944626.32

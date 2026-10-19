@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\footnotesize
+\caption{\textbf{5.2--5.3} MAE y RMSE en libras de los seis modelos, estimados de tres formas: (a) validaci\'on cruzada aleatoria de 5 \emph{folds} sobre el entrenamiento con 10 semillas (media $\pm$ desviaci\'on est\'andar entre semillas), (b) origen m\'ovil semanal dentro del entrenamiento con 22 or\'igenes de mayo a septiembre, (c) origen m\'ovil semanal en la prueba con 10 or\'igenes, 58 d\'ias evaluados.}
+\label{tab:p5_resultados}
+\begin{tabular}{lrrrrrr}
+\toprule
+\textbf{modelo} & \textbf{MAE (a)} & \textbf{RMSE (a)} & \textbf{MAE (b)} & \textbf{RMSE (b)} & \textbf{\textbf{MAE (c)}} & \textbf{\textbf{RMSE (c)}} \\
+\midrule
+\textbf{B1} & 10\,565 \tiny$\pm$67 & 14\,654 & 10\,506 & 15\,254 & 23\,446 & 28\,179 \\
+\textbf{B2} & --- & --- & 11\,634 & 15\,949 & 14\,655 & 18\,957 \\
+\textbf{M1} & 9\,361 \tiny$\pm$86 & 12\,879 & 9\,997 & 14\,147 & 15\,759 & 20\,955 \\
+\textbf{M2} & 8\,522 \tiny$\pm$106 & 12\,007 & 9\,480 & 13\,675 & 15\,648 & 20\,393 \\
+\textbf{S1} & --- & --- & 9\,854 & 14\,036 & 17\,243 & 21\,657 \\
+\textbf{S2} & --- & --- & 10\,304 & 14\,325 & 12\,817 & 16\,217 \\
+\bottomrule
+\end{tabular}
+\\[0.3em]{\scriptsize \textbf{Qu\'e leer:} (c) es la columna honesta y S2 gana por los dos criterios. (a) no aplica a B2, S1 y S2 porque los tres dependen del orden del tiempo. Y los tres estimados de adentro se quedan cortos: para M2, (b) subestima el error real en un 39\,\%.}
+\end{table}

@@ -1,0 +1,8 @@
+orden,regla,filas_eliminadas,monto_eliminado_GBP,detalle
+1,R1 duplicados exactos,5268,21740.98,se conserva la primera aparicion
+2,R2 facturas con prefijo distinto de digito o C,3,-11062.06,prefijo 'A' = ajuste por deuda incobrable; las 'C' se conservan
+3,R3 StockCode que no es venta al cliente,149,-239669.219,"codigos: AMAZONFEE, BANK CHARGES, CRUK, S"
+4,R4 precio unitario <= 0,2510,0.0,lineas sin ingreso: ajustes de bodega y capturas vacias
+5,R5 cantidad negativa sin factura de cancelacion,0,0.0,ajustes de inventario que sobreviven a R4
+6,R6 filas sin CustomerID (SE QUEDAN),0,0.0,"132443 filas (24.80%) por 1,690,450.38 GBP se conservan para la serie; se excluyen en la Parte 6"
+7,TOTAL,7930,-228990.29899999872,"de 541,909 filas quedan 533,979"

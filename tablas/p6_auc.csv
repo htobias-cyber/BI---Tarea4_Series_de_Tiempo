@@ -1,0 +1,5 @@
+clasificador,AUC
+R (signo invertido),0.6764199241551156
+F (crudo),0.7210201241560128
+M (crudo),0.7093276950419807
+suma de los tres puntajes,0.7352361819260773

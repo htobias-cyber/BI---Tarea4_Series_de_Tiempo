@@ -1,0 +1,70 @@
+fecha,dia_semana,motivo,tipo
+2010-12-04,sabado,sabado: la tienda no abre,—
+2010-12-11,sabado,sabado: la tienda no abre,—
+2010-12-18,sabado,sabado: la tienda no abre,—
+2010-12-24,viernes,feriado bancario: Nochebuena (la tienda cierra),fijo
+2010-12-25,sabado,sabado: la tienda no abre,—
+2010-12-26,domingo,feriado bancario: Boxing Day,fijo
+2010-12-27,lunes,feriado bancario: Navidad (dia sustituto),fijo
+2010-12-28,martes,feriado bancario: Boxing Day (dia sustituto),fijo
+2010-12-29,miercoles,sin explicacion en el calendario,—
+2010-12-30,jueves,sin explicacion en el calendario,—
+2010-12-31,viernes,sin explicacion en el calendario,—
+2011-01-01,sabado,sabado: la tienda no abre,—
+2011-01-02,domingo,sin explicacion en el calendario,—
+2011-01-03,lunes,feriado bancario: Ano Nuevo (dia sustituto),fijo
+2011-01-08,sabado,sabado: la tienda no abre,—
+2011-01-15,sabado,sabado: la tienda no abre,—
+2011-01-22,sabado,sabado: la tienda no abre,—
+2011-01-29,sabado,sabado: la tienda no abre,—
+2011-02-05,sabado,sabado: la tienda no abre,—
+2011-02-12,sabado,sabado: la tienda no abre,—
+2011-02-19,sabado,sabado: la tienda no abre,—
+2011-02-26,sabado,sabado: la tienda no abre,—
+2011-03-05,sabado,sabado: la tienda no abre,—
+2011-03-12,sabado,sabado: la tienda no abre,—
+2011-03-19,sabado,sabado: la tienda no abre,—
+2011-03-26,sabado,sabado: la tienda no abre,—
+2011-04-02,sabado,sabado: la tienda no abre,—
+2011-04-09,sabado,sabado: la tienda no abre,—
+2011-04-16,sabado,sabado: la tienda no abre,—
+2011-04-22,viernes,feriado bancario: Viernes Santo,MOVIL
+2011-04-23,sabado,sabado: la tienda no abre,—
+2011-04-24,domingo,sin explicacion en el calendario,—
+2011-04-25,lunes,feriado bancario: Lunes de Pascua,MOVIL
+2011-04-29,viernes,feriado bancario: Boda real (feriado extraordinario de 2011),irrepetible
+2011-04-30,sabado,sabado: la tienda no abre,—
+2011-05-02,lunes,feriado bancario: Early May Bank Holiday,fijo (primer lunes de mayo)
+2011-05-07,sabado,sabado: la tienda no abre,—
+2011-05-14,sabado,sabado: la tienda no abre,—
+2011-05-21,sabado,sabado: la tienda no abre,—
+2011-05-28,sabado,sabado: la tienda no abre,—
+2011-05-30,lunes,feriado bancario: Spring Bank Holiday,fijo (ultimo lunes de mayo)
+2011-06-04,sabado,sabado: la tienda no abre,—
+2011-06-11,sabado,sabado: la tienda no abre,—
+2011-06-18,sabado,sabado: la tienda no abre,—
+2011-06-25,sabado,sabado: la tienda no abre,—
+2011-07-02,sabado,sabado: la tienda no abre,—
+2011-07-09,sabado,sabado: la tienda no abre,—
+2011-07-16,sabado,sabado: la tienda no abre,—
+2011-07-23,sabado,sabado: la tienda no abre,—
+2011-07-30,sabado,sabado: la tienda no abre,—
+2011-08-06,sabado,sabado: la tienda no abre,—
+2011-08-13,sabado,sabado: la tienda no abre,—
+2011-08-20,sabado,sabado: la tienda no abre,—
+2011-08-27,sabado,sabado: la tienda no abre,—
+2011-08-29,lunes,feriado bancario: Summer Bank Holiday,fijo (ultimo lunes de agosto)
+2011-09-03,sabado,sabado: la tienda no abre,—
+2011-09-10,sabado,sabado: la tienda no abre,—
+2011-09-17,sabado,sabado: la tienda no abre,—
+2011-09-24,sabado,sabado: la tienda no abre,—
+2011-10-01,sabado,sabado: la tienda no abre,—
+2011-10-08,sabado,sabado: la tienda no abre,—
+2011-10-15,sabado,sabado: la tienda no abre,—
+2011-10-22,sabado,sabado: la tienda no abre,—
+2011-10-29,sabado,sabado: la tienda no abre,—
+2011-11-05,sabado,sabado: la tienda no abre,—
+2011-11-12,sabado,sabado: la tienda no abre,—
+2011-11-19,sabado,sabado: la tienda no abre,—
+2011-11-26,sabado,sabado: la tienda no abre,—
+2011-12-03,sabado,sabado: la tienda no abre,—
